@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #2b2b2b;
+  background: #faf8f3;
+}
+
+.navbar {
+  height: 80px;
+  padding: 0 13%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fffdfa;
+  border-bottom: 1px solid #eee5d8;
+  position: sticky;
+  top: 0;
+}
+
+.brand {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #8b1e1e;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+nav a {
+  margin-left: 25px;
+  color: #333;
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 0.85fr;
+  gap: 70px;
+  padding: 70px 13%;
+}
+
+.section-number {
+  color: #8b1e1e;
+  font-family: monospace;
+}
+
+h1, h2 {
+  font-family: Georgia, serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+em {
+  color: #8b1e1e;
+}
+
+.news-item {
+  border-bottom: 1px solid #e5dcca;
+  padding: 22px 0;
+}
+
+.year {
+  color: #777;
+  margin-right: 12px;
+}
+
+.tag {
+  background: #f2d6d6;
+  color: #8b1e1e;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.right {
+  text-align: center;
+}
+
+.photo-box {
+  width: 190px;
+  height: 190px;
+  margin: 0 auto 25px;
+  border: 1px solid #ddd0bd;
+  padding: 10px;
+  background: white;
+}
+
+.photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right h2 {
+  font-size: 44px;
+  margin: 10px 0 5px;
+}
+
+.right h3 {
+  font-weight: 400;
+  margin: 0 0 15px;
+}
+
+.affiliation {
+  color: #777;
+  text-decoration: underline;
+}
+
+.bio {
+  margin-top: 25px;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.section {
+  padding: 60px 13%;
+  border-top: 1px solid #eee5d8;
+}
+
+.section h2 {
+  font-size: 34px;
+}
+
+.project {
+  margin-bottom: 25px;
+}
+
+a {
+  color: #8b1e1e;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    padding: 20px;
+    height: auto;
+    display: block;
+  }
+
+  nav {
+    margin-top: 15px;
+  }
+
+  nav a {
+    margin: 0 15px 0 0;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+  }
+
+  .section {
+    padding: 40px 20px;
+  }
+}
