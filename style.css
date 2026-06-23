@@ -120,6 +120,14 @@ em {
   text-decoration: underline;
 }
 
+.research-tagline {
+  font-size: 15px;
+  color: #8b1e1e;
+  font-weight: 500;
+  margin: 5px 0 10px;
+  letter-spacing: 0.5px;
+}
+
 .bio {
   margin-top: 25px;
   line-height: 1.8;
@@ -141,6 +149,45 @@ em {
 
 .project-link {
   font-size: 13px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.cv-download {
+  display: inline-block;
+  background: #f2d6d6;
+  color: #8b1e1e;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+  margin-top: 20px;
+}
+
+.cv-download:hover {
+  background: #e8c4c4;
+}
+
+.highlights-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.highlights-list li {
+  padding: 10px 0;
+  padding-left: 25px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.highlights-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #8b1e1e;
+  font-weight: bold;
 }
 
 .publication {
