@@ -134,6 +134,27 @@ em {
   text-align: left;
 }
 
+.research-container {
+  display: grid;
+  grid-template-columns: 1fr 0.85fr;
+  gap: 70px;
+  padding: 60px max(24px, calc((100% - 900px) / 2));
+  border-top: 1px solid #eee5d8;
+}
+
+.research-left h2 {
+  font-size: 34px;
+  margin: 0;
+}
+
+.research-right {
+  padding-top: 5px;
+}
+
+.research-right p {
+  line-height: 1.8;
+}
+
 .section {
   padding: 60px max(40px, calc((100% - 720px) / 2));
   border-top: 1px solid #eee5d8;
@@ -277,6 +298,12 @@ a {
   .container {
     grid-template-columns: 1fr;
     padding: 40px 20px;
+  }
+
+  .research-container {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+    gap: 20px;
   }
 
   .section {
